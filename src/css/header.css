@@ -1,0 +1,114 @@
+.header {
+    background: #ff93b7;
+    position: fixed;
+    top: 0px;
+    left: 40%;
+    transform: translateX(-40%);
+    z-index: 500;
+           width: 335px;
+        height: 56px;
+        margin-left: 5px;
+
+}
+.header-container {
+    padding: 10px 16px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between; 
+}
+.menu-button {
+    display: block;
+    background-color: inherit;
+    width: 24px;
+    height: 24px;
+    border: none;
+    margin-left: auto;
+    margin-right: 12px;
+}
+.navigation-list {
+    display: none;
+}
+
+.modal {
+    display: none;
+    padding: 24px 20px;
+        width: 264px;
+        height: 432px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+            background:#ff93b7;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+   right: 0;
+    transition: visibility 0.3s ease;
+}
+.modal-close-button {
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: inherit;
+    right: 46px;
+    position: absolute;
+    top: 24px;
+ }
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    margin-top: 60px;
+    align-items: left;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.menu-item {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: left;
+        color: #1e1e1e;
+        height: 40px;
+}
+
+@media screen and (min-width: 1439px) {
+    .header {
+    width: 1296px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 24px;
+    }
+
+    .header-container {
+        padding: 16px 24px;
+        width: 100%;
+     }
+ .nav {
+display: flex;
+ align-items: center;
+ }
+
+    .navigation-list {
+        display: flex;
+       justify-content: center;
+        width: 1200px;
+        gap: 56px;
+        margin-left: 100px;
+    }
+
+    .navigation-item {
+        font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+               line-height: 1.5;
+            text-align: center;
+            color:#1e1e1e;
+           padding: 10px;
+    }
+    .menu-button {
+        display: none;
+    }
+}
