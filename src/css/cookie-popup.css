@@ -9,7 +9,7 @@
         width: 357px;
         height: 352px;
     text-align: center;
-    display: block;
+    display: none;
 }
 .popup-close-button{
     position: absolute;
