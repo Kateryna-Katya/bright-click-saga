@@ -8,5 +8,5 @@ font-family: 'BalooBhai', sans-serif;
 }
 @font-face {
   font-family: 'BalooBhai';
-  src: url('/../assets/fonts/BalooBhai-Regular.ttf') format('truetype');
+  src: url('/fonts/BalooBhai-Regular.ttf') format('truetype');
 }

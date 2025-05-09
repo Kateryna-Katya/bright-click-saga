@@ -333,3 +333,261 @@ position: absolute;
         z-index: 10;
 }
 }
+/* Why Choose Us? */
+.choose-section{
+    background-image: url("/img/rectangle-up-mob.png"), url("/img/choose/iPhone-mob.png");
+        background-repeat: no-repeat, no-repeat;
+        background-position: bottom -2px center, bottom 54px center;
+        background-size: 200%, 282px 574px;
+        height: 1234px;
+}
+.choose-title{
+        font-weight: 400;
+        font-size: 36px;
+         line-height: 1.5;
+        color: #2b0a3d;
+        text-align: center;
+        margin-bottom: 32px;
+}
+.choose-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.choose-item{
+    border-radius: 10px;
+        width: 335px;
+        height: 96px;
+        padding: 24px;
+        background: #fdfdfd;
+        display: flex;
+        gap: 4px;
+        align-items: center;
+}
+.choose-text{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #1e1e1e;
+        width: 237px;
+}
+.choose-container{
+    position: relative;
+    height: 1220px;
+}
+.choose-img{
+    position: absolute;
+    width: 152px;
+        height: 152px;
+      bottom: 0;
+      right: 0;
+      z-index: 10;
+}
+@media only screen and (min-width: 1439px) {
+    .choose-section {
+            background-image: url("/img/rectangle-up-desk.png"), url("/img/choose/iPhone-desk.png");
+            background-repeat: no-repeat, no-repeat;
+            background-position: bottom -80px right -150px , bottom -60px right 197px;
+            background-size: 160%, 375px 765px;
+            height: 780px;  }  
+
+.choose-container {
+    position: relative;
+    height: 750px;
+}
+.choose-title {
+   font-size: 64px;
+    text-align: left;
+    margin-bottom: 48px;
+}
+
+.choose-item {
+    width: 638px;
+    height: 108px;
+    display: flex;
+    gap: 10px;
+}
+.choose-svg{
+    width: 48px;
+    height: 48px;
+}
+.choose-text {
+    font-size: 20px;
+    width: 532px;
+}
+.choose-img {
+    position: absolute;
+    width: 271px;
+    height: 271px;
+    bottom: 0;
+    right: 24px;
+    z-index: 10;
+}
+}
+/* How to Play */
+.play-section{
+    background: #ffd562;
+}
+.play-title{
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 1.5;
+        color: #2b0a3d;
+        margin-bottom: 32px;
+        text-align: center;
+}
+.play-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.play-item{
+    display: flex;
+    align-items:start;
+    gap: 16px;
+    border-radius: 10px;
+        padding: 24px;
+        width: 335px;
+        height: 128px;
+        background: #fdfdfd;
+}
+.play-number{
+    font-family: "BalooBhai", sans-serif;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 1.5;
+        color: #2b0a3d;
+}
+.play-wrapper{
+    display: flex;
+    flex-direction: column;
+        gap: 8px;
+}
+.play-title-item{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #1e1e1e;
+}
+.play-text-item{
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+          line-height: 1.5;
+        color: #1e1e1e;
+        width: 249px;
+}
+@media only screen and (min-width: 1439px) {
+.play-title {
+font-size: 64px;
+ margin-bottom: 32px;
+}    
+.play-list {
+ display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+column-gap: 55px;
+gap: 52px;
+ }
+.play-item {
+width: 397px;
+height: 146px;
+ }
+ .play-number {
+     font-size: 64px;
+ }
+ .play-title-item {
+     font-size: 20px;
+ }
+
+ .play-text-item {
+     font-weight: 500;
+     font-size: 20px;
+     width: 290px;
+ }
+}
+/* Download Today ! */
+.download-section{
+background-image: url("/img/rectangle-down-mob.png"), url("/img/rectangle-up-mob.png");
+background-repeat: no-repeat, no-repeat;
+background-position: top -100px left -90px, bottom -100px right -150px ;
+background-size: 160%, 160%;
+height: 514px;
+}
+.download-container{
+    position: relative;
+}
+.gamezia-img{
+    position: absolute;
+        top: 34px;
+        left: 0;
+}
+.download-title{
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 1.5;
+        color: #2b0a3d;
+        text-align: center;
+        margin-left: 30px;
+        margin-bottom: 25px;
+}
+.download-text{
+    font-family: "BalooBhai", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        color: #2b0a3d;
+        margin-bottom: 24px;
+}
+.download-play-text{
+    font-family: "BalooBhai", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: left;
+        color: #2b0a3d;
+}
+.download-img{
+    position: absolute;
+    width: 81px;
+    height: 81px;
+}
+@media only screen and (min-width: 1439px) {
+ .download-section {
+ background-image: url("/img/rectangle-down-desk.png"), url("/img/rectangle-up-desk.png");
+background-repeat: no-repeat, no-repeat;
+ background-position: top -100px right -200px, bottom -100px right -200px;
+background-size:2065px 321px, 2065px 321px;
+height: 470px;
+} 
+.gamezia-img {
+ position: absolute; 
+ top: 88px;
+left: 26%;
+}        
+.download-title {
+font-size: 64px;
+margin-left: 40px;
+margin-bottom: 34px;
+ }
+ .download-text {
+    font-size: 36px;
+     margin-bottom: 34px;
+ }
+
+ .download-play-text {
+    font-size: 36px;
+     text-align: left;
+margin-left: 349px;
+ }
+ .download-img {
+     position: absolute;
+    width: 163px;
+        height: 163px;
+        bottom:60px;
+ }
+}
