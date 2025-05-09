@@ -513,9 +513,9 @@ height: 146px;
 .download-section{
 background-image: url("/img/rectangle-down-mob.png"), url("/img/rectangle-up-mob.png");
 background-repeat: no-repeat, no-repeat;
-background-position: top -100px left -90px, bottom -100px right -150px ;
+background-position: top -2px left -90px, bottom -2px right -150px ;
 background-size: 160%, 160%;
-height: 514px;
+height: 340px;
 }
 .download-container{
     position: relative;
